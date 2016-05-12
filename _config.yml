@@ -1,28 +1,40 @@
-name: modular105
-favicon: null
-layout_spectrum: 0.24103079992346466
-typography_spectrum: 0.7779958643950522
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+layout_spectrum: 1
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.5571891269646585
+  brandStrength: 0.3125
+  rhythmicContrast: 0.07116903061978519
   brandColors:
     - '#a1a19f'
     - '#2a2a28'
     - '#c2c2c2'
     - '#7a7a7a'
     - '#e7e7e7'
-  brandStrength: 0.3125
   lightness: 0.7693121873307973
-  saturation: 0.5571891269646585
-  rhythmicContrast: 0.07116903061978519
-purpose: []
+typography_spectrum: 0.5538847
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: modular105
